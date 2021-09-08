@@ -3,7 +3,7 @@
 
 ### Jalankan Script 🚀
 
-• Klik tombol dibawah untuk mengambil `String Session` :
+⚡ Klik tombol dibawah untuk mengambil `String Session` ⚡ :
 
 <p align="left"><a href="https://replit.com/@CollinFowel/Ambil-String-Session#main.py"> <img src="https://img.shields.io/badge/Ambil%20String%20Disini-black?style=for-the-badge&logo=replit" width="238" height="38.45"/></a></p>
 
@@ -14,5 +14,6 @@
 <details>
   <summary><b></b>Klik disini untuk melihat daftar credits</summary>
 # Thankyou so much to
-- [Me](https://github.com/CollinFowel/): Owner This Repository
-- [TeamUltroid](https://github.com/TeamUltroid/): Dev & Owner
+
+- [Me](https://github.com/CollinFowel): Owner This Repository
+- [TeamUltroid](https://github.com/TeamUltroid): Dev & Owner
