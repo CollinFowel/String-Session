@@ -40,7 +40,7 @@ def clear_screen():
 
 def get_api_id_and_hash():
     print(
-        "Silahkan ambil dulu API ID & API HASH mu dari my.telegram.org atau kalo ga ngerti tanya @xxstanme di Telegram.\n\n",
+        "Nanti masukin nomor hp nya pake kode negara ya...\nContoh +6281234567890\n\n",
     )
     try:
         API_ID = int(input("Masukan API ID : "))
@@ -55,7 +55,7 @@ def telethon_session():
     try:
         spinner("tele")
 
-        x = "\bNanti masukin nomor hp nya pake kode negara ya...\nContoh +6281234567890\n\n"
+        x = "\bSilahkan ambil dulu API ID & API HASH mu dari my.telegram.org\nkalo ga ngerti tanya @xxstanme di Telegram.\n\n"
     except BaseException:
         print("Menginstall Telethon...")
         os.system("pip install telethon")
@@ -103,7 +103,7 @@ def pyro_session():
         spinner("pyro")
         from pyrogram import Client
 
-        x = "\bNanti masukin nomor hp nya pake kode negara ya...\nContoh +6281234567890\n\n"
+        x = "\bSilahkan ambil dulu API ID & API HASH mu dari my.telegram.org\nkalo ga ngerti tanya @xxstanme di Telegram.\n\n"
     except BaseException:
         print("Menginstall Pyrogram...")
         os.system("pip install pyrogram tgcrypto")
