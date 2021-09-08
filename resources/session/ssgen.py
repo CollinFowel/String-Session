@@ -9,12 +9,20 @@ import os
 from time import sleep
 
 a = r"""
-╔═╗╔═╗──────╔╗╔╗──╔╦═══╦═══╗
-║║╚╝║║──────║║║╚╗╔╝║╔═╗║╔═╗║
-║╔╗╔╗╠╗╔╦══╦╣║╠╗║║╔╣║─╚╣║─╚╝
-║║║║║║║║║══╬╣╚╝╣╚╝║║║─╔╣║╔═╗
-║║║║║║╚╝╠══║║╔╗╬╗╔╝║╚═╝║╚╩═║
-╚╝╚╝╚╩══╩══╩╩╝╚╝╚╝─╚═══╩═══╝
+
+███╗░░░███╗██╗░░░██╗░██████╗██╗██╗░░██╗
+████╗░████║██║░░░██║██╔════╝██║██║░██╔╝
+██╔████╔██║██║░░░██║╚█████╗░██║█████═╝░
+██║╚██╔╝██║██║░░░██║░╚═══██╗██║██╔═██╗░
+██║░╚═╝░██║╚██████╔╝██████╔╝██║██║░╚██╗
+╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚═╝╚═╝░░╚═╝
+
+██╗░░░██╗░█████╗░░██████╗░
+██║░░░██║██╔══██╗██╔════╝░
+╚██╗░██╔╝██║░░╚═╝██║░░██╗░
+░╚████╔╝░██║░░██╗██║░░╚██╗
+░░╚██╔╝░░╚█████╔╝╚██████╔╝
+░░░╚═╝░░░░╚════╝░░╚═════╝░
 """
 
 
@@ -114,7 +122,7 @@ def pyro_session():
 
     # generate a session
     API_ID, API_HASH = get_api_id_and_hash()
-    print("Tunggu sebentar, silahlan isi nomor telepon setalah diminta masukan nomor. \n\n")
+    print("Tunggu sebentar, silahkan isi nomor telepon setalah diminta masukan nomor. \n\n")
     with Client(":memory:", api_id=API_ID, api_hash=API_HASH) as pyro:
         ss = pyro.export_session_string()
         pyro.send_message(
